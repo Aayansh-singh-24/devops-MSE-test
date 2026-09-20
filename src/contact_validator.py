@@ -9,6 +9,7 @@ def is_valid_email(email):
     return re.match(pattern, email) is not None
 
 
+
 def is_valid_phone(phone):
     """Return True if phone is exactly 10 digits, optionally with dashes."""
     if not isinstance(phone, str):
